@@ -1,0 +1,42 @@
+body {background-color:#90EE90;
+        }
+
+
+p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px; line-height:0.7cm; text-align: justify; 
+    }
+	
+	p: secund-line { font-family: 'Times New Roman', Times, serif;  
+	line-height: 0.7cm;
+	font-size: 24px; 
+	font-variant: small-caps; 
+	font-weight: bolder; 
+	font-style: italic;
+	
+	}
+    
+    h1 { font-family:'COMIC SANS MS', CURSIVE;
+        font-size: 70px;
+        color: #228B22;
+        margin: 10px;
+	
+    }
+	
+    h2 {font-family:'COMIC SANS MS', CURSIVE;  font-size: 50px; color: #228B22 ;
+        margin: 10px;
+	}
+	h3 {font-family:'COMIC SANS MS', CURSIVE;  font-size: 50px; color: #228B22 ;
+        margin: 10px;
+	}
+	li {font-family: 'COMIC SANS MS', CURSIVE;
+        font-size: 24px; color: #228B22  ;
+    }
+	
+	hr { border-color: #228B22;
+	
+	}
+
+	strong {color: #228B22; font-style: oblique; }
+	
+	fieldset { background-color: #90EE90 }

@@ -1,0 +1,38 @@
+body { background-color:#90EE90 ; }
+h1{ font-family: 'COMIC SANS MS', CURSIVE; 
+        font-size: 70px;
+        color: #228B22;
+        margin: 5px;
+    }
+p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px; 
+    }
+	fieldset { background-color: #32CD32; }
+
+hr { border-color: #228B22;
+	
+	}
+	
+/* estilo da tabela*/
+#consultoria table { width= 600px; 
+margin: 50px auto 30px;
+text-align: center; 
+border-collapse: collapse;
+}
+
+#consultoria th  { border: #999 solid 1px;
+padding: 5px; font-family: 'Times New Roman', Times, serif;
+        font-size: 24px; color: #006400; line-height: 0.6cm ; letter-spacing: 0.4mm;
+		text-align: center; border-color: #32CD32; border-radius: 35px 35px 35px 35px;}
+
+#consultoria td { border: #999 solid 1px;
+padding: 5px; font-family: 'Times New Roman', Times, serif;
+        font-size: 24px; line-height: 0.8cm ; letter-spacing: 0.4mm;
+		text-align: left; border-color: #32CD32; border-radius: 50px 40px 35px 50px;}
+		
+#consultoria strong {color:#008B00; font-style: oblique; }
+
+
+
+

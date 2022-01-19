@@ -1,0 +1,49 @@
+body { background-color:#90EE90 ; }
+
+h1{ font-family: 'COMIC SANS MS', CURSIVE; 
+        font-size: 70px;
+        color: #228B22;
+        margin: 5px;
+    }
+
+p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px; 
+    }
+
+input[type="submit"]{background-color:  ; border: none; border-radius: 30px; font-size: 24px; font-family: 'Times New Roman', Times, serif;
+color: #228B22;  padding:10px 30px;  magin: 20px 0; cursor: pointer; text-shadow: 2px 2px 5px;}
+
+#inf_principal{background-color: #32CD32;margin: 30px 0;
+padding: 20px;
+border-radius: 15px 15px; }
+
+#inf_principal legend {font-style: oblique; letter-spacing: 0.2em; padding: 10px margin-left: -13px;}
+
+#inf_principal input[type="nome"],inf_principal input[type="email"],inf_principal input[type="mensagem"], inf_principal input[type="telefone"]{font-size: 18px; font-family: 'Times New Roman', Times, serif; color: #228B22;}
+ 
+#inf_principal label {font-size: 24px; font-family: 'Times New Roman', Times, serif; color: #90EE90; }
+
+#inf_secundaria{background-color: #32CD32;margin: 30px 0;
+padding: 20px;
+border-radius: 15px 15px; }
+
+#inf_secundaria legend {font-style: oblique; letter-spacing: 0.2em; padding: 10px margin-left: -13px;}
+
+#inf_secundaria p { font-family: 'Times New Roman', Times, serif;
+font-size: 24px;}
+
+#inf_secundaria label.labelsimples { display: inline; float: none; font-size: 24px;
+ font-family: 'Times New Roman', Times, serif; color: #90EE90;
+}
+
+#inf_secundaria textarea { width: 200px;
+height: 100px;
+font-size: 18px;
+border: solid;
+ font-family: 'Times New Roman', Times, serif;
+ } 
+
+ 
+
+

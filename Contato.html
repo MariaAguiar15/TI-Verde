@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustentabilidade na área da Tecnologia</title>
+	<script> src="interacao/html5shiv.min.js"></script>
+<link href="contato.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+<main>
+<p> <a href="index.html">home</a></p>
+<h1> Tecnologia Verde </h1>
+<p>Dúvidas, consutar nossos serviços ou queira se junta ao projetos? Entre em contato conosco por esse formulário.</p>
+
+<form>
+<fieldset id="inf_principal">
+<legend><strong>Informações principais</strong></legend>
+<p><label for="nome"><strong>Nome:</strong></label> <input type="nome" name="nome" id="nome" placeholder="Digite seu nome"></p>
+<p><label for="email"><strong>Email:</strong></label> <input type="email" name="email" id="email" placeholder="Digite seu Email" size="30"></p>
+<p><label for="tel_cliente"><strong>Telefone:</strong></label> <input type="telefone" nome="tel_cliente" id="tel_cliente" size="12" maxlength="13" placeholder="99 99999-9999"/></p>
+<p><label for="mensagem"><strong>Mensagem:</strong></label> <input type="mensagem" nome="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui" size="50"></p>
+</fieldset>
+
+<fieldset id="inf_secundaria">
+<legend><strong>Informações secundária</strong></legend>
+<p>Qual projeto você vai participar? <br> <input type="radio" name="inf_secun" id="casemadeira" value="casemadeira"> <label for="casemadeira" class="labelsimples">Case madeira</label>
+<input type="radio" name="inf_secun" id="energia_sustentavel" value="energia_sustentavel"><label for="energia_sustentavel" class="labelsimples"> Energia sustentavel</label>
+<input type="radio" name="inf_secun" id="reciclagem" value="reciclagem" ><label for="reciclagem" class="labelsimples">Reciclagem na área da TI</label></p>
+
+<p>Qual e seu tipo de empresa? <select name="tipo_empresa" id="tipo_empresa"> <option  value="padrao"> Grande Empresa</option>
+<option value="media">Média Empresa</option>
+<option value="pequena"> Pequena Empresa</option></select></p>
+
+<p> Informações sobre a empresa:
+<textarea name="nome" id="obs" placeholder="Digite Informações sobre sua empresa"></textarea></p>
+
+<p> Informe algum dia da semana para serviços de consultoria: <br>
+<input type="checkbox" name="semana" value="idsegunda"/> <label for="idsegunda" class="labelsimples">Segunda-feira</label>
+<input type="checkbox" name="semana" value="idterca"/> <label for="idterca" class="labelsimples">Terça-feira</label>
+<input type="checkbox" name=semana" value="idquarta"/> <label for="idquarta" class="labelsimples">Quarta-feira</label>
+<input type="checkbox" name="semana" value="idquinta"/> <label for="idquinta" class="labelsimples">Quinta-feira</label>
+<input type="checkbox" name="semana" value="idsexta"/> <label for="idsexta" class="labelsimples">Sexta-feira </label> </p>
+</fieldset><br>
+<input type="submit" value="Enviar">
+</form>
+</main>
+</body>
+</html>
